@@ -186,6 +186,9 @@ position: relative;
   .landing .text .content {
     max-width: 100%;
   }
+  .landing .text .content h2 {
+    font-size: 26px;
+  }
 }
 .landing .content h2 {
  
@@ -360,6 +363,7 @@ max-width: 100%;
   .about img {
     bottom: -60px;
     margin-top: -60px;
+    margin-bottom: 100px;
   }
 }
 /* End About */
@@ -566,8 +570,23 @@ text-align: center;
 .contact .content form .main-input {
   display: block;
   padding: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 33px;
   width: 100%;
+  border-radius:0%;
+  border: solid #777;
+}
+@media (max-width:767px){
+  .contact .content form textarea.main-input {
+    height: 270px;
+  }
+  .contact .content form .main-input {
+    padding: 20px ;
+
+  }
+  .contact .content form input[type=submit] {
+    padding: 15px;
+    font-size: 12px;
+  }
 }
 .contact .content form textarea.main-input {
   height: 200px;
@@ -621,5 +640,10 @@ footer {
 }
 .footer .container p {
   font-size: 24px ;
+}
+@media (max-width:767px){
+  .footer .container p {
+    font-size: 18px ;
+  }
 }
 /* End Footer */
