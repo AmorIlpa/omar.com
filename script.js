@@ -1,10 +1,5 @@
-// const menuBtn = document.querySelector('.menu-button');
-// const menu = document.querySelector('.menu-open');
 
-// menuBtn.addEventListener('click', () =>{
-//   menu.classList.toggle('clicked');
-// });
-const form= document.querySelector('form');
+const form= document.querySelector("form");
 function sendEmail() {
     Email.send({
         Host : "smtp.elasticemail.com",
