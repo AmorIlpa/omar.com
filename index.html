@@ -3,8 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme-color" content="#777"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Omar Ilpa</title>
+    <!-- java script file -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <link rel="stylesheet" href="script.js">
     <!-- <render all files> -->
     <link rel="stylesheet" href="css/normalize.css">
     <!-- <main css file> -->
@@ -24,8 +28,9 @@
                 <img src="images/image-removebg-preview__1_-removebg-preview.png" alt="this logo may not appear on your browser due to your problem">
             </a>
             <nav>
-                <i class="fa-solid fa-bars toggle-menu"></i>
-                <ul>
+                
+                <i class="fa-solid fa-bars toggle-menu menu-button"></i>
+                <ul class="menu-open">
                 <li><a class="active" href="#home">Home</a></li>
                 <li><a href="#service">Service</a></li>
                 <li><a href="#about">About</a></li>
@@ -40,11 +45,11 @@
     </header>
     <!-- End header -->
     <!-- Start Landing -->
-    <div class="landing">
+    <div class="landing"> 
         <div class="over-lay"></div>
         <div class="text">
             <div class="content">
-                <h2>Hello World Wide Web! <br/> Omar Ilpa... <br/> For Web Designing</h2>
+                <h2>Hello World Wide Web! <br/>Omar Ilpa... <br/>For Web Designing</h2>
                 <p>A Dedicated Web Designer with a Knack for Creating Captivating Digital Experiences. With a Keen Eye for Asthetics and a Passion for User-Centric Design, I Strive to Deliver Visually Appealing and Engaging Websites that Leave a Lasting Impression.</p>
             </div>
         </div>
@@ -213,10 +218,10 @@
                 <p>Reach Out: Let's Connect and Make a Difference Together. Contact Us to Start a Meaningful Conversation.</p>
         </div>
         <div class="content">
-            <form action="mailto=omarilpa09@gmail.com" >
-                <input type="text" class="main-input" name="name" placeholder="Your Name">
-                <input type="email"  class="main-input"  name="mail" placeholder="Your Mail">
-                <textarea name="message" id="" placeholder="Your Message" class="main-input"></textarea>
+            <form action="#">
+                <input type="text" class="main-input" name="name" placeholder="Full Name" required>
+                <input type="email"  class="main-input"  name="mail" placeholder="Email Id" required>
+                <textarea name="message" id="" placeholder="Your Message" class="main-input" required></textarea>
                 <input type="submit" value="Send Message">
             </form>
             <div class="info">
