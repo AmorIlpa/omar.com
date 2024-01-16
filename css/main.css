@@ -201,6 +201,15 @@ position: relative;
   font-size: 14px;
   line-height: 2;
 }
+@media (max-width: 740px){
+  .landing .content h2 {
+font-size: 24px;
+}
+.landing .content p {
+  font size: 12px;
+}
+}
+
 /* End Landing */
 /* Start Components */
 .main-heading {
